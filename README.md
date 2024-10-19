@@ -4,11 +4,6 @@
 
 Code for *Inferring the GCE Morphology with Gaussian Processes* paper. 
 
-# Reproducing Figures
-1. Download data from this [Zenodo Dataset](https://zenodo.org/records/13953539)
-2. Create the directory `figures/data` 
-3. Generate plots figures using `figures/paper_figures_v02_MB.ipynb` 
-
 # Installation
 Run the `environment.yml` file by running the following command on the main repo directory:
 ```
@@ -21,3 +16,8 @@ If you want to run this code with a CUDA GPU, you will need to download the appr
 pip install jaxlib==0.4.13+cuda12.cudnn89
 ```
 The key to using this code directly would be to retain the `jax` and `jaxlib` versions. 
+
+# Reproducing Figures
+1. Download data from this [Zenodo Dataset](https://zenodo.org/records/13953539)
+2. Create the directory `figures/data` 
+3. Generate plots figures using `figures/paper_figures_v02_MB.ipynb` 
