@@ -4,6 +4,11 @@
 
 Code for *Inferring the GCE Morphology with Gaussian Processes* paper. 
 
+# Reproducing Figures
+1. Download data from this [Zenodo Dataset](https://zenodo.org/records/13953539)
+2. Create the directory `figures/data` 
+3. Generate plots figures using `figures/paper_figures_v02_MB.ipynb` 
+
 # Installation
 Run the `environment.yml` file by running the following command on the main repo directory:
 ```
